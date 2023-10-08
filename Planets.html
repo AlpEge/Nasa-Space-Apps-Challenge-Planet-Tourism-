@@ -1,0 +1,180 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Select Your Planet</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            font-family: "Montserrat";
+        }
+        .background {
+            background-image: url("Photos/blackrepeat.png");
+           text-align:center;
+        }
+
+        h2 {
+            vertical-align: central;
+            text-align: center;
+        }
+
+
+
+        ul li {
+            list-style-type: none;
+            padding: 5px;
+            float: left;
+        }
+
+            ul li a {
+                color: black;
+                text-decoration: none;
+            }
+
+
+        .text-1 {
+            color: white;
+            font-family: "Montserrat";
+            font-size: 75px;
+        }
+
+        b {
+            text-align: center;
+            margin-bottom: 100px;
+            float: right;
+            margin-right: 180px;
+            margin-top: 350px;
+        }
+
+
+        .buttons {
+            color: white;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+            .buttons:hover {
+                color: skyblue;
+                transition: 0.6s;
+            }
+
+        #navigation {
+            text-align: center;
+        }
+
+        .navigation-buttons {
+            text-align: center;
+            float: right;
+            margin-right: 50px;
+        }
+
+        .buttons {
+            float: right;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            color: #FFF;
+            height: 50px;
+            padding: 1em;
+            cursor: pointer;
+            top: 0;
+        }
+
+        #logo {
+            height: 150px;
+            width: 150px;
+            float: left;
+            margin-left: 5px;
+            margin-top:0px;
+        }
+
+        .top-nav {
+            width: 100%;
+        }
+
+        #buttonimportant {
+            font-size: 3rem;
+            cursor: pointer;
+            font-weight: bold;
+            background-color: transparent;
+            color: white;
+            border: solid;
+            border-color: white;
+            margin-left: 767px;
+            transition-delay: 0.3s;
+            transition-duration: 0.2s;
+        }
+
+            #buttonimportant:hover {
+                background-color: white;
+                color: black;
+                transition: 0.7s;
+            }
+
+        .abstract {
+            height: 900px;
+        }
+
+        #texts {
+            width: 100%;
+            height: 700px;
+            justify-content: center;
+        }
+        #planet1 {
+            float: left;
+            margin-top: 250px;
+            
+  
+        }
+        #planet2{
+            float:right;
+            margin-top:150px;
+            margin-left:150px;
+        }
+        #planet3{
+            margin-top:80px;
+        }
+        #selection-text {
+            color: white;
+            padding-top: 150px;
+        }
+     
+    </style>
+</head>
+<div>
+    <div id="all-things">
+        <section class="top-nav">
+            <div id="logo">
+                <a href="mainpage.html"> <img src="Photos/logowhite.png" id="logo" /></a>
+            </div>
+            <ul class="navigation-buttons">
+
+                <li><a class="buttons">Take A Flight!</a></li>
+                <li><a class="buttons">Our Missions</a></li>
+                <li><a class="buttons">Our Services!</a></li>
+                <li><a class="buttons">F.A.Q.</a></li>
+            </ul>
+        </section>
+       
+
+        <body class="background">
+         
+        </body>
+        
+    </div>
+    
+    <div>
+        <h1 id="selection-text">SELECT YOUR PLANET</h1>
+        <a href="mars.html"><img src="Photos/foto1.png" id="planet1" /></a>
+        <a href="uranus.html"><img src="Photos/foto2.png" id="planet2" /></a>
+        <a href="saturn.html"><img src="Photos/foto3.png" id="planet3" /></a>
+        
+    </div>
+</div>
+</html>

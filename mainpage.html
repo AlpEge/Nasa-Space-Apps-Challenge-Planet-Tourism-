@@ -1,0 +1,187 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Dream.Co</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+
+    <style>
+        .background {
+            background-image: url("Photos/mainphoto.png");
+        }
+        h2 {
+            vertical-align: central;
+            text-align: center;
+        }
+
+
+        a {
+            color: white;
+            text-decoration: none;
+            transition-delay: 0.3s;
+            transition-duration: 0.2s;
+        }
+            a:hover {
+                color: black;
+                
+            }
+        ul li {
+            list-style-type: none;
+            padding: 5px;
+            float: left;
+        }
+
+            ul li a {
+                color: black;
+                text-decoration: none;
+            }
+
+
+        .text-1 {
+            color: white;
+            font-family: "Montserrat";
+            font-size: 75px;
+           
+        }
+
+        b {
+            text-align: center;
+            margin-bottom: 100px;
+            float: right;
+            margin-right: 180px;
+            margin-top: 350px;
+        }
+
+  
+        .buttons {
+            color: white;
+            font-family: 'Open Sans', sans-serif;
+        }
+            .buttons:hover {
+                color: skyblue;
+                transition:0.6s;
+          
+            }
+        #navigation{
+            text-align:center;
+        }
+        .navigation-buttons {
+            text-align: center;
+            float: right;
+            margin-right:50px;
+        }
+
+        .buttons {
+            float: right;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            color: #FFF;
+            height: 50px;
+            padding: 1em;
+            cursor: pointer;
+            top: 0;
+        }
+        #logo{
+            height:150px;
+            width:150px;
+            float:left;
+            margin-left:5px;
+            margin-top:5px;
+
+        }
+        .top-nav{
+            width:100%;
+        }
+        #buttonimportant {
+            font-size: 2.8rem;
+            cursor: pointer;
+            font-weight: bold;
+            background-color: transparent;
+            color: white;
+            border: solid;
+            border-color: white;
+            margin-right:25px;
+            transition-delay: 0.3s;
+            transition-duration: 0.2s;
+        }
+        #buttonimportant:hover{
+            background-color:white;
+            color:black;
+            transition:0.7s;
+
+        }
+         
+        .abstract{
+            height:95vh;
+            justify-content:center;
+            text-align:center;
+    
+        }
+        #texts{
+            width:100%;
+            height:700px;
+            justify-content:center;
+            text-align:center;
+           
+        }
+        @media (max-width:1350px) {
+            #texts{
+
+            }
+            
+        }
+        @media (max-width:850px) {
+       .buttons{
+           display:none;
+       }
+            }
+
+    </style>
+</head>
+<div>
+    <div id="all-things">
+        <section class="top-nav">
+            <div id="logo">
+                <a href="mainpage.html"> <img src="Photos/logowhite.png" id="logo" /></a>
+            </div>
+            <ul class="navigation-buttons">
+                
+                <li><a class="buttons"  href="Planets.html">Take A Flight!</a></li>
+                <li><a class="buttons">Our Missions</a></li>
+                <li><a class="buttons">Our Services!</a></li>
+                <li><a class="buttons">F.A.Q.</a></li>
+            </ul>
+        </section>
+        <div class="abstract">
+
+            <div id="texts">
+                <b class="text-1">Ready For<br /><mark>Flight!</mark></b>
+
+
+            </div>
+            <div id="">
+                <button id="buttonimportant">
+                    <a href="Planets.html">
+                        Book a Flight
+                    </a>
+            </div>
+            </button>
+        </div>
+
+        <body class="background">
+           
+               
+           
+            
+
+        </body>
+    </div>
+</div>
+</html>
